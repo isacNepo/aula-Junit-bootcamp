@@ -8,7 +8,7 @@ import entities.Account;
 public class AccountTests {
 
 	@Test
-	public void depositShoudIncreaseBalanceWhenPositiveAmount() {
+	public void depositShoudIncreaseBalanceAndDiscountFeeWhenPositiveAmount() {
 		
 		double amount = 200.0;
 		double expectedValue = 196.0;
